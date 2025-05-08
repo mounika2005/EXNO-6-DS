@@ -141,7 +141,8 @@ sns.boxplot(x="day", y="total_bill", hue="smoker", data=tips, linewidth=2, width
 whiskerprops={"color": "black", "linestyle": "--", "linewidth": 1.5}, capprops={"color": "black", "linestyle": "--", "linewidth": 1.5})
 ```
 ![image](https://github.com/user-attachments/assets/f65ffe95-8d33-4d89-8185-7da9594d6f52)
-``sns.violinplot(x="day", y="total_bill", hue="smoker", data=tips, linewidth=2, width=0.6, palette="Set3", inner="quartile")
+```
+sns.violinplot(x="day", y="total_bill", hue="smoker", data=tips, linewidth=2, width=0.6, palette="Set3", inner="quartile")
 plt.xlabel("Day of the Week")
 plt.ylabel("Total Bill")
 plt.title("Violin Plot of Total Bill by Day and Smoker Status")
